@@ -2,5 +2,5 @@
 layout: default
 ---
 
-[to CV](./cv.html)
+[to Resume](./)
 
