@@ -3,5 +3,19 @@ plugins:
 - jekyll-remote-theme
 
 title: Dima Tcimokha
+subtitle: Data Analyst
 logo: /assets/img/me.jpeg
-description: Escobar's Axiom - Resume or CV
+round-avatar: true
+description: Data Analyst
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+social-network-links:
+  email: "dstsimokha@gmail.com"
+  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  linkedin: dstsimokha
