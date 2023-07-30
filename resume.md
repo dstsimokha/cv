@@ -9,7 +9,7 @@
 
 </span>
 
-[to Resume](./)
+[to CV](./cv.html)
 
 # (63 months) Work Experience
 
