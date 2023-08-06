@@ -261,7 +261,7 @@ display: block;
 max-width: 1000px;
 margin: 0 auto;
 padding: 0;
-font-family: "Helvetica Neue";
+font-family: Roboto;
 font-size: 14px;
 }
 h1 {
@@ -281,17 +281,17 @@ margin: 10px 0 5px 0;
 padding: 0 0 2px 0;
 }
 h3 {
-font-size: 1.3em;
+font-size: 1.2em;
 font-weight: bold;
 margin: 5px 0 0 0;
 }
 h4 {
-font-size: 1.3em;
+font-size: 1.2em;
 font-weight: bold;
 margin: 0;
 }
 p, ul {
-font-size: 1.2em;
+font-size: 100%;
 margin: 0;
 }
 ul, ol {
@@ -338,15 +338,7 @@ font-style: italic;
 }
 info {
 display: block;
-text-align: center;
-}
-svg {
-vertical-align: top;
-}
-@media print {
-a[href]::after {
-content: none !important;
-}
+text-align: left;
 }</style>
 
 
@@ -449,48 +441,44 @@ display: none;
 </div>
 
 
-<p><info> <a href="mailto:dstsimokha@gmail.com"><svg id="svg_80b4eaa818a8ba555b7c208f0106731dfb4bda32" alt="mail" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"></path></svg>
-dstsimokha@gmail.com</a> <a href="https://www.linkedin.com/in/dstsimokha/"><svg id="svg_b281f1ad784766689a990d16324bfffc1a81e1bd" alt="linkedin" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
-linkedin.com/in/dstsimokha</a> <a href="https://github.com/dstsimokha"><svg id="svg_f8c68ae2a4afa9659f4202a32fc0c42faa82d5da" alt="github" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path></svg>
-github.com/dstsimokha</a> </info></p>
+<p><info> <a href="mailto:dstsimokha@gmail.com"><svg alt="Mail"><use href="#svg_80b4eaa818a8ba555b7c208f0106731dfb4bda32" /></svg>
+dstsimokha@gmail.com</a> <a href="https://www.linkedin.com/in/dstsimokha/"><svg id="svg_b281f1ad784766689a990d16324bfffc1a81e1bd" alt="LinkedIn" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path></svg>
+linkedin.com/in/dstsimokha/</a> </info></p>
 <div id="work-experience-5.25-years-63-months-252-weeks" class="section level1">
 <h1>Work Experience <time> 5.25 years / 63 months / 252 weeks
 </time></h1>
 <div id="data-analyst-onesoil-nov-2021-present" class="section level3">
 <h3>Data Analyst | <location> OneSoil </location> <time> Nov 2021 –
 Present </time></h3>
-<p>20 months of Bash, Python, SQL, Google Cloud Platform, Airflow, DBT,
-Superset, Looker Studio, Plotly Dash</p>
+<p>19 month of LOLOLO <svg id="svg_80b4eaa818a8ba555b7c208f0106731dfb4bda32" alt="Mail" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><title>Gmail</title><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"></path></svg> kek</p>
 </div>
 <div id="marketing-data-analyst-samokat-mar-2021-nov-2021" class="section level3">
 <h3>Marketing Data Analyst | <location> Samokat </location> <time> Mar
 2021 – Nov 2021 </time></h3>
-<p>9 months of Bash, Python, SQL, PowerBI</p>
+<p>9 month of</p>
 </div>
 <div id="junior-data-analyst-sberbank-oct-2020-mar-2021" class="section level3">
 <h3>Junior Data Analyst | <location> Sberbank </location> <time> Oct
 2020 – Mar 2021 </time></h3>
-<p>6 months of Bash, Python, SQL, Airflow, Hadoop, Spark, Plotly Dash,
-Facebook Prophet</p>
+<p>6 month of</p>
 </div>
 <div id="paid-internship" class="section level2">
 <h2>Paid Internship</h2>
 <div id="data-analyst-intern-sberbank-may-2020-aug-2020" class="section level3">
 <h3>Data Analyst Intern | <location> Sberbank </location> <time> May
 2020 – Aug 2020 </time></h3>
-<p>4 months of Bash, Python, SQL, Airflow, Hadoop, Spark, Plotly Dash,
-Facebook Prophet</p>
+<p>4 month of</p>
 </div>
 <div id="research-intern-internet-studies-lab-higher-school-of-economics-apr-2019-dec-2019" class="section level3">
 <h3>Research Intern | <location> Internet Studies Lab, Higher School of
 Economics </location> <time> Apr 2019 – Dec 2019 </time></h3>
-<p>9 months of R, Shiny</p>
+<p>9 month of</p>
 </div>
 <div id="research-intern-laboratory-of-sociology-in-education-and-science-higher-school-of-economics-feb-2017-dec-2017" class="section level3">
 <h3>Research Intern | <location> Laboratory of Sociology in Education
 and Science, Higher School of Economics </location> <time> Feb 2017 –
 Dec 2017 </time></h3>
-<p>11 months of R, Shiny</p>
+<p>11 month of</p>
 </div>
 </div>
 <div id="unpaid-internship" class="section level2">
@@ -498,12 +486,12 @@ Dec 2017 </time></h3>
 <div id="data-analyst-intern-gk-scout-jul-2016-sep-2016" class="section level3">
 <h3>Data Analyst Intern | <location> GK Scout </location> <time> Jul
 2016 – Sep 2016 </time></h3>
-<p>4 months of R, Shiny</p>
+<p>4 month of</p>
 </div>
 </div>
 </div>
-<div id="education-6-years" class="section level1">
-<h1>Education <time> 6+ years </time></h1>
+<div id="education" class="section level1">
+<h1>Education</h1>
 <div id="modern-social-analysis-masters-degree-higher-school-of-economics-2020---2024" class="section level3">
 <h3>Modern Social Analysis | <location> master’s degree, Higher School
 of Economics </location> <time> 2020 - 2024 </time></h3>

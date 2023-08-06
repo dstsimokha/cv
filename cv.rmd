@@ -5,15 +5,30 @@ output:
     css: "style.css"
 ---
 
-`r exp_m <- 20 + 9 + 6 + 4 + 9 + 11 + 4`
-
+```{r include=FALSE}
+work <- data.frame(
+    row.names = c(
+      "OneSoil", "Samokat", "Sber_full", "Sber_intern",
+      "HSE_intern_2", "HSE_intern_1", "Scout"),
+    months = c(20, 9, 6, 4, 9, 11, 4),
+    tools = I(list(
+        c("Bash", "Python", "SQL", "Superset", "Looker Studio", "Plotly Dash"),
+        c("Bash", "Python", "SQL", "PowerBI"),
+        c("Bash", "Python", "SQL", "Facebook Prophet"),
+        c("Bash", "Python", "SQL", "Facebook Prophet"),
+        c("R", "Shiny"),
+        c("R", "Shiny"),
+        c("R", "Shiny")
+    ))
+)
+```
 
 <info> [![Mail](https://simpleicons.org/icons/gmail.svg) dstsimokha@gmail.com](mailto:dstsimokha@gmail.com) [![LinkedIn](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/dstsimokha/](https://www.linkedin.com/in/dstsimokha/) </info>
 
-# Work Experience <time> `r exp_m/12` years / `r exp_m` months / `r exp_m * 4` weeks </time>
+# Work Experience <time> `r sum(work$months) / 12` years / `r sum(work$months)` months / `r sum(work$months) * 4` weeks </time>
 
 ### Data Analyst | <location> OneSoil </location> <time> Nov 2021 – Present </time>
-19 month of 
+19 month of ![py](https://simpleicons.org/icons/python.svg)
 
 ### Marketing Data Analyst | <location> Samokat </location> <time> Mar 2021 – Nov 2021 </time>
 9 month of 
