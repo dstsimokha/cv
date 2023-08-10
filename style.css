@@ -57,15 +57,8 @@ li {
 }
 
 .title.toc-ignore {
-    font-size: 1.8em;
-    line-height: 150%;
-    font-weight: bold;
-    display: block;
-    text-align: left;
-}
-
-.author {
-    font-size: 1.6em;
+    color: black;
+    font-size: 2em;
     line-height: 150%;
     font-weight: bold;
     display: block;
@@ -102,6 +95,20 @@ location {
 info {
     display: block;
     text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+skills {
+    background-color: rgba(0, 0, 255, 0.1);
+    color: black;
+    font-style: italic;
+}
+
+tools {
+    background-color: rgba(0, 128, 0, 0.15);
+    color: black;
+    font-style: italic;
 }
 
 svg {
@@ -109,6 +116,9 @@ svg {
 }
 
 @media print {
+    body {
+        font-size: 12px;
+    }
     a[href]::after {
         content: none !important;
     }
