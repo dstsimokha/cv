@@ -1,5 +1,5 @@
 ---
-title: Dima Tcimokha, Data Analyst
+title: Dima Tcimokha, Data Analyst <redirect>[to CV](./cv.html)</redirect>
 output:
   html_document:
     theme:
@@ -26,14 +26,12 @@ work <- data.frame(
     tools = I(list(
         c(
           "Bash", "Python", "SQL",
-          "Google Cloud Platform",
-          "Airflow", "DBT",
+          "Google Cloud Platform", "Airflow", "DBT",
           "Superset", "Looker Studio", "Plotly Dash"
         ),
         c(
           "Bash", "Python", "SQL",
-          "Adjust",
-          "PowerBI"
+          "Adjust", "PowerBI"
         ),
         c(
           "Bash", "Python", "SQL",

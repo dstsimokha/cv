@@ -56,6 +56,10 @@ li {
     line-height: 150%;
 }
 
+blockquote {
+    font-weight: 400;
+}
+
 .title.toc-ignore {
     color: black;
     font-size: 2em;
@@ -85,6 +89,10 @@ time {
     float: right;
     font-size: inherit;
     font-weight: bold;
+}
+
+redirect {
+    float: right;
 }
 
 location {
@@ -121,5 +129,8 @@ svg {
     }
     a[href]::after {
         content: none !important;
+    }
+    redirect {
+        display: none;
     }
 }
