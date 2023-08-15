@@ -1,5 +1,5 @@
 ---
-title: Dima Tcimokha, Data Analyst <redirect>[to Resume](./index.html)</redirect>
+title: Dima Tcimokha, Data Analyst <web>[web](https://dstsimokha.github.io/cv/cv.html)</web> <redirect>[to Resume](./index.html)</redirect>
 output:
   html_document:
     theme:
@@ -60,7 +60,7 @@ work <- data.frame(
 
 <info> [![mail](https://simpleicons.org/icons/gmail.svg) dstsimokha@gmail.com](mailto:dstsimokha@gmail.com) [![linkedin](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/dstsimokha](https://www.linkedin.com/in/dstsimokha/) [![github](https://simpleicons.org/icons/github.svg) github.com/dstsimokha](https://github.com/dstsimokha) </info>
 
-> Most interesting things to me are `processes` - how world works, how governments are functioning, how business operates and makes profits, how people communicate. And to understand the process you need to threat it as a `mechanism` and disassemble it, like a wristwatch - for that you need both the trained vision and the right tools.  <br> <br>
+> Most interesting things to me are `processes` - how world works, how governments are functioning, how business operates and makes profits, how people communicate. And to understand the process you need to threat it as a `mechanism` - *disassemble it, like a wristwatch, spreading out on the table all the gears and cogs, get the idea how all the details work together and then rebuild it to function even better than it was*. For that you need both the trained vision and the right tools.  <br> <br>
 > That's why I study `sociology` and work as a `data analyst` - I love understanding how things work and finding ways to make them work even better. Pairing theoretical sociology, research methods and project management with programming, statistics and visualisation helps me to do so most effectively both for the sake of the employer and my own vast interest in how things works.
 
 # Work Experience <time> `r sum(work$months) / 12` years / `r sum(work$months)` months / `r sum(work$months) * 4` weeks </time>
@@ -70,8 +70,8 @@ work <- data.frame(
 <skills>`r work$tasks[1][[1]]`</skills>  
 using <tools>`r work$tools[1][[1]]`</tools>
 
-> Actively using Bash / SQL / Python and several tools for data wrangling, insights reporting, time-series prediction, statistical modeling + creating and planning surveys and interviews for marketing purposes.  
-> Intergrating Google Cloud, Google Analytics, Adjust, Facebook Business, Yandex Metrica. Setting up Facebook, Yandex, Google analytical pixels with Google Tag Manager. Maintaining data flow with Google Cloud Functions, Big Query, Storage and Data Transfer, DBT. Creating dashboards with Superset, Plotly Dash, Looker Studio; forecasting time-series data with Prophet, reporting metrics.
+> Helping product team to answer their hypothesis on user engagement and overall behavior; working with marketing team on evaluation of user acquisition efficiency; developing KPIs and maintaining dashboards for the management; rebuilding processes for sales team.  
+> Actively using Bash / SQL / Python and several tools for data wrangling, insights reporting, time-series prediction, statistical modeling + creating and planning surveys and interviews for marketing purposes. Intergrating Google Cloud, Google Analytics, Adjust, Facebook Business, Yandex Metrica. Setting up Facebook, Yandex, Google analytical pixels with Google Tag Manager. Maintaining data flow with Google Cloud Functions, Big Query, Storage and Data Transfer, DBT. Creating dashboards with Superset, Plotly Dash, Looker Studio; forecasting time-series data with Prophet, reporting metrics.
 
 ### Marketing Data Analyst | <location> Samokat </location> <time> Mar 2021 – Nov 2021 </time>
 **`r work$months[2]`** months of 
@@ -95,7 +95,7 @@ using <tools>`r work$tools[3][[1]]`</tools>
 <skills>`r work$tasks[4][[1]]`</skills>  
 using <tools>`r work$tools[4][[1]]`</tools>
 
-> 
+> *The same as above but as an intern.*
 
 ### Research Intern | <location> Internet Studies Lab, Higher School of Economics </location> <time> Apr 2019 – Dec 2019 </time>
 **`r work$months[5]`** months of 
@@ -109,7 +109,7 @@ using <tools>`r work$tools[5][[1]]`</tools>
 <skills>`r work$tasks[6][[1]]`</skills> 
 using <tools>`r work$tools[6][[1]]`</tools>
 
-> 
+> Developing my own project on researching the 'dark web' in Russia. No luck, really, but got a lot of understanding of what are my capabilities were on my first year of bachelors.
 
 
 ## Unpaid Internship
@@ -119,28 +119,30 @@ using <tools>`r work$tools[6][[1]]`</tools>
 <skills>`r work$tasks[7][[1]]`</skills> 
 using <tools>`r work$tools[7][[1]]`</tools>
 
-> 
+> *My first job!* Not paid, but still interesting - automatization of department's routine tasks with R scripting and creating and maintaining KPI dashboards with Shiny.
 
 
 # Education <time> 6+ years </time>
 
-### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - 2024 </time>
+### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - Present </time>
 **2** years of <skills>Modern Social Theory for Quantitative Research, Econometrics, Quantitative Data Analysis, Structural Equation Modeling, Multilevel Modeling, Social Network Analysis (SNA), Research and Analytics Management in Organization</skills>
 
-> 
+> One more step of dealing with the trauma that my bachelor's degree gave me - learning in-depth what is human data analysis, how to apply even more complex statistical methods and how to conduct research and manage analytics. Which is still fun, but this time I'm struggling even more with coming up with a good topic for the thesis. 
 
 ### Data Analysis | <location> minor degree, Higher School of Economics </location> <time> 2017 - 2019 </time>
 **2** years of <tools>Data Analysis and Data Technologies, Data Mining and Elements of Machine Learning, Programming with Data and Reproducible Research, Application and Practice of Data Science</tools>
 
->
+> 8/10 GPA. Doing side quests and *learning* about machine *learning* and AI. As the final project together with my classmate developed a web application (R & Shiny) which allows to scan QR-codes on receipts from stores to get info on person's purchases and classify it to provide analytics on customer behavior.
 
 ### Sociology and Social Informatics | <location> bachelor's degree, Higher School of Economics </location> <time> 2016 - 2020 </time>
 **4** years of <skills>Sociological Theory, Probability Theory and Mathematical Statistics, Theory Construction and Model Building, Data Analysis, Information Systems, Social Network Analysis (SNA), Computation Methods for Text Analysis, Programming Social Applications, Social Psychology, Digital Anthropology</skills>
 
-> 
+> 7.5/10 GPA. It's been a fun 4 years of studying many things connected directly or not really to sociology which yielded in general understanding on how to think in analysis of human behavior data. Also it gave me the trauma of everlasting interest in sociology, statistics and informatics which will haunt me forever. And in the end I wrote a thesis about ["A Mutual Pairing between Undergraduate Students and Academic Advisors: Selection Strategies and Matching Parameters"](https://drive.google.com/file/d/1oWzILKuC4V8kQGzjKrpkZZ_6m3v9WNfT/view?usp=sharing) where I researched through interview and model building how is the process of pairing looks like. That was quite fun too.
 
 
 ## Certificates
+
+> I prefer university lectures and books to MOOCs, but still have some certificates:
 
 ### [🔗](https://www.datacamp.com/statement-of-accomplishment/track/47967f8d01670ae17890f54b4791bbd3f43c1d46) Python Programmer | <location> career path, DataCamp </location>
 

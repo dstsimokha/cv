@@ -91,6 +91,10 @@ time {
     font-weight: bold;
 }
 
+web {
+    float: right;
+}
+
 redirect {
     float: right;
 }
@@ -131,6 +135,12 @@ svg {
         content: none !important;
     }
     redirect {
+        display: none;
+    }
+}
+
+@media screen {
+    web {
         display: none;
     }
 }

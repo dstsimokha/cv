@@ -1,5 +1,5 @@
 ---
-title: Dima Tcimokha, Data Analyst <redirect>[to CV](./cv.html)</redirect>
+title: Dima Tcimokha, Data Analyst <web>[web](https://dstsimokha.github.io/cv/index.html)</web> <redirect>[to CV](./cv.html)</redirect>
 output:
   html_document:
     theme:
