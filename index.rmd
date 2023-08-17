@@ -14,7 +14,7 @@ work <- data.frame(
       "hse_linis", "hse_slon", "scout"),
     months = c(20, 9, 6, 4, 9, 11, 4),
     tasks = I(list(
-        c("Marketing Analytics", "Product Analytics", "BI Analytics"),
+        c("Product Analytics", "Marketing Analytics", "BI Analytics"),
         c("Marketing Analytics", "Statistical Analysis", "BI Analytics"),
         c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
         c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
@@ -60,6 +60,7 @@ work <- data.frame(
 
 <info> [![mail](https://simpleicons.org/icons/gmail.svg) dstsimokha@gmail.com](mailto:dstsimokha@gmail.com) [![linkedin](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/dstsimokha](https://www.linkedin.com/in/dstsimokha/) [![github](https://simpleicons.org/icons/github.svg) github.com/dstsimokha](https://github.com/dstsimokha) </info>
 
+> Quite experienced in product and marketing research and eternally curious in understanding how things work Data Analyst with the ability to create value from data using a wide range of programming languages, statistical methods and visualization tools. And here are some of my [notes & presentations](https://dstsimokha.github.io/) - it ain't much, but it's honest work.
 
 # Work Experience <time> `r sum(work$months) / 12` years / `r sum(work$months)` months / `r sum(work$months) * 4` weeks </time>
 
@@ -107,14 +108,14 @@ using <tools>`r work$tools[7][[1]]`</tools>
 
 # Education <time> 6+ years </time>
 
-### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - 2024 </time>
-**2** years of <skills>Modern Social Theory for Quantitative Research, Econometrics, Quantitative Data Analysis, Structural Equation Modeling, Multilevel Modeling, Social Network Analysis (SNA), Research and Analytics Management in Organization</skills>
+### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - Present </time>
+**2** years of studying <skills>Advanced Social Theory, Quantitative Research Methods and Analytics Management</skills>
 
 ### Data Analysis | <location> minor degree, Higher School of Economics </location> <time> 2017 - 2019 </time>
-**2** years of <tools>Data Analysis and Data Technologies, Data Mining and Elements of Machine Learning, Programming with Data and Reproducible Research, Application and Practice of Data Science</tools>
+**2** years of studying <tools>Programming, Data Visualisation, Data Science and Machine Learning</tools>
 
 ### Sociology and Social Informatics | <location> bachelor's degree, Higher School of Economics </location> <time> 2016 - 2020 </time>
-**4** years of <skills>Sociological Theory, Probability Theory and Mathematical Statistics, Theory Construction and Model Building, Data Analysis, Information Systems, Social Network Analysis (SNA), Computation Methods for Text Analysis, Programming Social Applications, Social Psychology, Digital Anthropology</skills>
+**4** years of <skills>Sociology, Statistics, Social Network Analysis, Text Analysis, Informatics and Data Analysis</skills>
 
 
 ## Certificates

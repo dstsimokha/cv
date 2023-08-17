@@ -14,7 +14,7 @@ work <- data.frame(
       "hse_linis", "hse_slon", "scout"),
     months = c(20, 9, 6, 4, 9, 11, 4),
     tasks = I(list(
-        c("Marketing Analytics", "Product Analytics", "BI Analytics"),
+        c("Product Analytics", "Marketing Analytics", "BI Analytics"),
         c("Marketing Analytics", "Statistical Analysis", "BI Analytics"),
         c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
         c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
@@ -125,19 +125,19 @@ using <tools>`r work$tools[7][[1]]`</tools>
 # Education <time> 6+ years </time>
 
 ### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - Present </time>
-**2** years of <skills>Modern Social Theory for Quantitative Research, Econometrics, Quantitative Data Analysis, Structural Equation Modeling, Multilevel Modeling, Social Network Analysis (SNA), Research and Analytics Management in Organization</skills>
+**2** years of studying <skills>Modern Social Theory for Quantitative Research, Econometrics, Quantitative Data Analysis, Structural Equation Modeling, Multilevel Modeling, Social Network Analysis (SNA), Research and Analytics Management in Organization</skills>
 
 > One more step of dealing with the trauma that my bachelor's degree gave me - learning in-depth what is human data analysis, how to apply even more complex statistical methods and how to conduct research and manage analytics. Which is still fun, but this time I'm struggling even more with coming up with a good topic for the thesis. 
 
 ### Data Analysis | <location> minor degree, Higher School of Economics </location> <time> 2017 - 2019 </time>
-**2** years of <tools>Data Analysis and Data Technologies, Data Mining and Elements of Machine Learning, Programming with Data and Reproducible Research, Application and Practice of Data Science</tools>
+**2** years of studying <tools>Data Analysis and Data Technologies, Data Mining and Elements of Machine Learning, Programming with Data and Reproducible Research, Application and Practice of Data Science</tools>
 
-> 8/10 GPA. Doing side quests and *learning* about machine *learning* and AI. As the final project together with my classmate developed a web application (R & Shiny) which allows to scan QR-codes on receipts from stores to get info on person's purchases and classify it to provide analytics on customer behavior.
+> Doing side quests and *learning* about machine *learning* and AI. As the final project together with my classmate developed a web application (R & Shiny) which allows to scan QR-codes on receipts from stores to get info on person's purchases and classify it to provide analytics on customer behavior.
 
 ### Sociology and Social Informatics | <location> bachelor's degree, Higher School of Economics </location> <time> 2016 - 2020 </time>
-**4** years of <skills>Sociological Theory, Probability Theory and Mathematical Statistics, Theory Construction and Model Building, Data Analysis, Information Systems, Social Network Analysis (SNA), Computation Methods for Text Analysis, Programming Social Applications, Social Psychology, Digital Anthropology</skills>
+**4** years of studying <skills>Sociological Theory, Probability Theory and Mathematical Statistics, Theory Construction and Model Building, Data Analysis, Information Systems, Social Network Analysis (SNA), Computation Methods for Text Analysis, Programming Social Applications, Social Psychology, Digital Anthropology</skills>
 
-> 7.5/10 GPA. It's been a fun 4 years of studying many things connected directly or not really to sociology which yielded in general understanding on how to think in analysis of human behavior data. Also it gave me the trauma of everlasting interest in sociology, statistics and informatics which will haunt me forever. And in the end I wrote a thesis about ["A Mutual Pairing between Undergraduate Students and Academic Advisors: Selection Strategies and Matching Parameters"](https://drive.google.com/file/d/1oWzILKuC4V8kQGzjKrpkZZ_6m3v9WNfT/view?usp=sharing) where I researched through interview and model building how is the process of pairing looks like. That was quite fun too.
+> It's been a fun 4 years of studying many things connected directly or not really to sociology which yielded in general understanding on how to think in analysis of human behavior data. Also it gave me the trauma of everlasting interest in sociology, statistics and informatics which will haunt me forever. And in the end I wrote a thesis about ["A Mutual Pairing between Undergraduate Students and Academic Advisors: Selection Strategies and Matching Parameters"](https://drive.google.com/file/d/1oWzILKuC4V8kQGzjKrpkZZ_6m3v9WNfT/view?usp=sharing) where I researched through interview and model building how is the process of pairing looks like. That was quite fun too.
 
 
 ## Certificates
