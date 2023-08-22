@@ -7,149 +7,100 @@ output:
     css: "style.css"
 ---
 
-```{r include=FALSE}
-work <- data.frame(
-    row.names = c(
-      "onesoil", "samokat", "sber_full", "sber_intern",
-      "hse_linis", "hse_slon", "scout"),
-    months = c(20, 9, 6, 4, 9, 11, 4),
-    tasks = I(list(
-        c("Product Analytics", "Marketing Analytics", "BI Analytics"),
-        c("Marketing Analytics", "Statistical Analysis", "BI Analytics"),
-        c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
-        c("Compliance Analytics", "Fraud Detection", "Time series Forecasting"),
-        c("Statistical Analysis", "Social Network Analysis (SNA)",
-          "Scientific Research"),
-        c("Scientific Research"),
-        c("Scripting for automatisation", "BI Analytics")
-    )),
-    tools = I(list(
-        c(
-          "Bash", "Python", "SQL",
-          "Google Cloud Platform", "Airflow", "DBT",
-          "Superset", "Looker Studio", "Plotly Dash"
-        ),
-        c(
-          "Bash", "Python", "SQL",
-          "Adjust", "PowerBI"
-        ),
-        c(
-          "Bash", "Python", "SQL",
-          "Airflow", "Hadoop", "Spark",
-          "Plotly Dash",
-          "Facebook Prophet"
-        ),
-        c(
-          "Bash", "Python", "SQL",
-          "Airflow", "Hadoop", "Spark",
-          "Plotly Dash",
-          "Facebook Prophet"
-        ),
-        c(
-          "R", "Shiny"
-        ),
-        c(
-          "R", "Shiny"
-        ),
-        c(
-          "R", "Shiny"
-        )
-    ))
-)
-```
+<info> [![mail](https://simpleicons.org/icons/gmail.svg) dstsimokha@gmail.com](mailto:dstsimokha@gmail.com) [![linkedin](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/dstsimokha](https://www.linkedin.com/in/dstsimokha/) [![github](https://simpleicons.org/icons/github.svg) dstsimokha.github.io](dstsimokha.github.io) </info>
 
-<info> [![mail](https://simpleicons.org/icons/gmail.svg) dstsimokha@gmail.com](mailto:dstsimokha@gmail.com) [![linkedin](https://simpleicons.org/icons/linkedin.svg) linkedin.com/in/dstsimokha](https://www.linkedin.com/in/dstsimokha/) [![github](https://simpleicons.org/icons/github.svg) github.com/dstsimokha](https://github.com/dstsimokha) </info>
+> I am **a passionate and pro-active** data analyst with strong engineering and interpersonal skills and expertise in statistics, sociology and data visualization. I am a strong advocate of **data-driven decision-making**. I love understanding how things work and **finding ways to make them work even better**.
 
-> Most interesting things to me are `processes` - how world works, how governments are functioning, how business operates and makes profits, how people communicate. And to understand the process you need to threat it as a `mechanism` - *disassemble it, like a wristwatch, spreading out on the table all the gears and cogs, get the idea how all the details work together and then rebuild it to function even better than it was*. For that you need both the trained vision and the right tools.  <br> <br>
-> That's why I study `sociology` and work as a `data analyst` - I love understanding how things work and finding ways to make them work even better. Pairing theoretical sociology, research methods and project management with programming, statistics and visualisation helps me to do so most effectively both for the sake of the employer and my own vast interest in how things works.
+# Work Experience <time> 5+ years </time>
 
-# Work Experience <time> `r sum(work$months) / 12` years / `r sum(work$months)` months / `r sum(work$months) * 4` weeks </time>
+### Data Analyst | <location> [OneSoil](onesoil.ai) </location> <time> Nov 2021 – Present </time>
 
-### Data Analyst | <location> OneSoil </location> <time> Nov 2021 – Present </time>
-**`r work$months[1]`** months of 
-<skills>`r work$tasks[1][[1]]`</skills>  
-using <tools>`r work$tools[1][[1]]`</tools>
+<details open>
+  <summary>
+  Developing and supporting user analytics platform using SQL, Python, BigQuery, DBT, Airflow, Apache Superset, Google Data Studio; supporting product and marketing decisions with data.
+  </summary>
 
-> Helping product team to answer their hypothesis on user engagement and overall behavior; working with marketing team on evaluation of user acquisition efficiency; developing KPIs and maintaining dashboards for the management; rebuilding processes for sales team.  
-> Actively using Bash / SQL / Python and several tools for data wrangling, insights reporting, time-series prediction, statistical modeling + creating and planning surveys and interviews for marketing purposes. Intergrating Google Cloud, Google Analytics, Adjust, Facebook Business, Yandex Metrica. Setting up Facebook, Yandex, Google analytical pixels with Google Tag Manager. Maintaining data flow with Google Cloud Functions, Big Query, Storage and Data Transfer, DBT. Creating dashboards with Superset, Plotly Dash, Looker Studio; forecasting time-series data with Prophet, reporting metrics.
+- Built pipeline for the whole **user behaviour analysis** - from collecting raw events data via Firebase, to cleaning and storing it in BigQuery using DBT models and Airflow, to enriching it with external data and serving it to end customers;
+- Actively participated in development and implementation of **company-level KPIs** and ensuring their accurate measurement of performance;
+- Created and maintained interactive and visually appealing dashboards, including **automated weekly reports** for company management;
+- Took initiative to **help sales team improve their processes**, leading to improved sales team performance and increased revenue generation;
+- Created a system of **dashboards for company partners** to monitor their users activity and invoicing;
+- Created the whole **infrastructure for marketing and UA analytics**: from integrating external tools (Adjust, Facebook Business) to creating a system of automated dashboards and helping marketing team make decisions about campaigns and sources efficiency resulting in data-driven recommendations that enhanced campaign targeting and ROI;
+- Set up **analytical pixels** with Google Tag Manager for Facebook and Google platforms, ensuring accurate data collection and tracking of user interactions;
+- **Integrated multiple external data sources and tools** (Adjust, Typeform, Intercom, Stripe, Brevo) to BigQuery and datalake using Google Cloud Functions and Data Transfer;
+- Created within-company **analysis of social interactions** by designing a survey and creating graph-based analysis for understanding inter- and intra-teams dynamics and helping HR department better understand;
+- Established strong **cross-teams communications and data flows** from all the departments into a single data lake.
 
-### Marketing Data Analyst | <location> Samokat </location> <time> Mar 2021 – Nov 2021 </time>
-**`r work$months[2]`** months of 
-<skills>`r work$tasks[2][[1]]`</skills> 
-using <tools>`r work$tools[2][[1]]`</tools>
+</details> 
 
-> Creating dashboards in PowerBI, wrangling data in SQL, predicting time-series data with Python / Prophet, writing lots of marketing analytical reports on offline advertisement campaigns, creating different kinds of analytical maps on deliveries and service zones.
+### Marketing Data Analyst | <location> [Samokat](samokat.ru) </location> <time> Mar 2021 – Nov 2021 </time>
 
-### Junior Data Analyst | <location> Sberbank </location> <time> Oct 2020 – Mar 2021 </time>
-**`r work$months[3]`** months of 
-<skills>`r work$tasks[3][[1]]`</skills>  
-using <tools>`r work$tools[3][[1]]`</tools>
+<details open>
+  <summary>
+  Conducting post-experiments on geo-targeted offline advertisement campaigns using Python; developing marketing dashboards in Power BI; forecasting time-series data and predicting marketing campaigns impact.
+  </summary>
 
-> Developing analytical financial dashboards using Bash, Python, Plotly Dash, Flask, ARiMA-like models / Prophet. Detecting outliers and anomalies in financial time-series, creating analytical reports.
+- Built a **system for evaluating offline advertisement campaigns** for marketing department;
+- Helped company to **increase revenue by estimating effectiveness** of potential offline advertisement campaigns;
+- Created **ad-hoc reports, dashboards and geographical visualizations** in Power BI using DAX;
+</details>
 
+### Junior Data Analyst | <location> [Sberbank](sberbank.com/compliance) </location> <time> Oct 2020 – Mar 2021 </time>
 
-## Paid Internship
+<details open>
+  <summary>
+  Developing analytical financial dashboards; detecting outliers and anomalies in financial time-series.
+  </summary>
 
-### Data Analyst Intern | <location> Sberbank </location> <time> May 2020 – Aug 2020 </time>
-**`r work$months[4]`** months of 
-<skills>`r work$tasks[4][[1]]`</skills>  
-using <tools>`r work$tools[4][[1]]`</tools>
+- Participated in creation of time-series **outliers detection system** to prevent fraud and money laundering;
+- Created with Plotly Dash internal financial dashboard to use in **department's local intranet** only;
+- **Automatized department routine tasks** with Python and Bash cron scheduler;
+</details>
 
-> *The same as above but as an intern.*
+### Data Analyst Intern | <location> [Sberbank](sberbank.com/compliance) </location> <time> May 2020 – Aug 2020 </time>
 
-### Research Intern | <location> Internet Studies Lab, Higher School of Economics </location> <time> Apr 2019 – Dec 2019 </time>
-**`r work$months[5]`** months of 
-<skills>`r work$tasks[5][[1]]`</skills> 
-using <tools>`r work$tools[5][[1]]`</tools>
+### Research Intern | <location> [Internet Studies Lab](linis.hse.ru/en) </location> <time> Apr 2019 – Dec 2019 </time>
 
-> Calculating basic statistics, conducting Social Network Analysis (SNA) and preparing analytical reports with R for a laboratory study of social networks.
+<details open>
+  <summary>
+  Conducting statistical analysis and Social Network Analysis (SNA); creating interactive analytical reports with R.
+  </summary>
 
-### Research Intern | <location> Laboratory of Sociology in Education and Science, Higher School of Economics </location> <time> Feb 2017 – Dec 2017 </time>
-**`r work$months[6]`** months of 
-<skills>`r work$tasks[6][[1]]`</skills> 
-using <tools>`r work$tools[6][[1]]`</tools>
+- Helped senior researchers with **initial basic statistical analysis** of laboratory study;
+- Created **interactive analytical reports** with R, rmarkdown & Shiny;
+- Wrote **a course paper on Social Network Analysis** using laboratory data;
+</details>
 
-> Developing my own project on researching the 'dark web' in Russia. No luck, really, but got a lot of understanding of what are my capabilities were on my first year of bachelors.
+### Research Intern | <location> [Laboratory of Sociology in Education and Science](slon.hse.ru/en) </location> <time> Feb 2017 – Dec 2017 </time>
 
-
-## Unpaid Internship
-
-### Data Analyst Intern | <location> GK Scout </location> <time> Jul 2016 – Sep 2016 </time>
-**`r work$months[7]`** months of 
-<skills>`r work$tasks[7][[1]]`</skills> 
-using <tools>`r work$tools[7][[1]]`</tools>
-
-> *My first job!* Not paid, but still interesting - automatization of department's routine tasks with R scripting and creating and maintaining KPI dashboards with Shiny.
+### Data Analyst Intern | <location> [GK Scout](scout-gps.com) </location> <time> Jul 2016 – Sep 2016 </time>
 
 
 # Education <time> 6+ years </time>
 
 ### Modern Social Analysis | <location> master's degree, Higher School of Economics </location> <time> 2020 - Present </time>
-**2** years of studying <skills>Modern Social Theory for Quantitative Research, Econometrics, Quantitative Data Analysis, Structural Equation Modeling, Multilevel Modeling, Social Network Analysis (SNA), Research and Analytics Management in Organization</skills>
-
-> One more step of dealing with the trauma that my bachelor's degree gave me - learning in-depth what is human data analysis, how to apply even more complex statistical methods and how to conduct research and manage analytics. Which is still fun, but this time I'm struggling even more with coming up with a good topic for the thesis. 
 
 ### Data Analysis | <location> minor degree, Higher School of Economics </location> <time> 2017 - 2019 </time>
-**2** years of studying <tools>Data Analysis and Data Technologies, Data Mining and Elements of Machine Learning, Programming with Data and Reproducible Research, Application and Practice of Data Science</tools>
-
-> Doing side quests and *learning* about machine *learning* and AI. As the final project together with my classmate developed a web application (R & Shiny) which allows to scan QR-codes on receipts from stores to get info on person's purchases and classify it to provide analytics on customer behavior.
 
 ### Sociology and Social Informatics | <location> bachelor's degree, Higher School of Economics </location> <time> 2016 - 2020 </time>
-**4** years of studying <skills>Sociological Theory, Probability Theory and Mathematical Statistics, Theory Construction and Model Building, Data Analysis, Information Systems, Social Network Analysis (SNA), Computation Methods for Text Analysis, Programming Social Applications, Social Psychology, Digital Anthropology</skills>
-
-> It's been a fun 4 years of studying many things connected directly or not really to sociology which yielded in general understanding on how to think in analysis of human behavior data. Also it gave me the trauma of everlasting interest in sociology, statistics and informatics which will haunt me forever. And in the end I wrote a thesis about ["A Mutual Pairing between Undergraduate Students and Academic Advisors: Selection Strategies and Matching Parameters"](https://drive.google.com/file/d/1oWzILKuC4V8kQGzjKrpkZZ_6m3v9WNfT/view?usp=sharing) where I researched through interview and model building how is the process of pairing looks like. That was quite fun too.
 
 
-## Certificates
+## Courses
 
-> I prefer university lectures and books to MOOCs, but still have some certificates:
+[Python Programmer](https://www.datacamp.com/statement-of-accomplishment/track/47967f8d01670ae17890f54b4791bbd3f43c1d46) | <location> career path, DataCamp </location>
 
-### [🔗](https://www.datacamp.com/statement-of-accomplishment/track/47967f8d01670ae17890f54b4791bbd3f43c1d46) Python Programmer | <location> career path, DataCamp </location>
+[Data Analyst with Python](https://www.datacamp.com/statement-of-accomplishment/track/75b44259cd8fdb3a1989572813cd687f9dbe02a3) |  <location> career path, DataCamp </location>
 
-### [🔗](https://www.datacamp.com/statement-of-accomplishment/track/75b44259cd8fdb3a1989572813cd687f9dbe02a3) Data Analyst with Python |  <location> career path, DataCamp </location>
+[The Data Scientist's Toolbox](https://www.coursera.org/account/accomplishments/records/VGLYGWMARKJ9) | <location> Johns Hopkins University, Coursera <location>
 
-### [🔗](https://www.coursera.org/account/accomplishments/records/VGLYGWMARKJ9) The Data Scientist's Toolbox | <location> Johns Hopkins University, Coursera <location>
+[Econometrics](https://www.coursera.org/account/accomplishments/records/L2FYYPX489P2) | <location> Higher School of Economics, Coursera <location>
 
-### [🔗](https://www.coursera.org/account/accomplishments/records/L2FYYPX489P2) Econometrics | <location> Higher School of Economics, Coursera <location>
+[Questionnaire Design for Social Surveys](https://www.coursera.org/account/accomplishments/records/V6MT6KS8RY5A) | <location> University of Michigan, Coursera </locations>
 
-### [🔗](https://www.coursera.org/account/accomplishments/records/V6MT6KS8RY5A) Questionnaire Design for Social Surveys | <location> University of Michigan, Coursera </locations>
+
+# Stack
+
+- **Domains**: Product & Marketing Analytics, Data Visualization, Scientific Research, Social Network Analysis (SNA)
+- **Code**: Bash, Git, SQL (DBT), R, Python
+- **Visual**: Superset, Shiny, Plotly Dash, Looker (Data) Studio, Power BI, Tableau
+- **Tools**: Airflow, GitLab, Google Cloud Platform (BigQuery, Storage, Functions)
